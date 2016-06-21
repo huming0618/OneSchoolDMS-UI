@@ -1,0 +1,57 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/oneschool-bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/fontawesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/app.css"/>
+  </head>
+  <body>
+    <div class="row">
+      <div style="width:300px;margin:20px;" class="input-group">
+        <input type="text" placeholder="关键字" class="form-control"/><span class="input-group-btn">
+          <button type="button" class="btn btn-primary"> <span class="glyphicon glyphicon-align-justify"></span>&nbsp;</button></span>
+      </div>
+    </div>
+    <div class="row">
+      <div role="search-result-panel" style="width:300px;margin:20px;" class="list-group"><a style="border-left: 5px solid #F28570;" href="#" class="list-group-item">李四川</a><a style="border-left: 5px solid #7CBAF2;" href="#" class="list-group-item">四川省成都市武侯区中心小学</a><a style="border-left: 5px solid #47F2AD;" href="#" class="list-group-item">四川省成都市红哈村</a></div>
+    </div>
+    <div class="row">
+      <div role="search-result-panel" style="width:300px;margin:20px;" class="list-group">
+        <div style="border-left: 5px solid #F28570;" href="#" class="list-group-item"><span>已捐助的学生</span><span style="vertical-align:middle;display:table-cell;text-align:center;position:absolute;right:0px;top:0px;height:100%;width:60px;">更改</span></div>
+        <div style="border-left: 5px solid #7CBAF2;" href="#" class="list-group-item"><span>未捐助的学生</span>
+          <button style="position:absolute;right:10px;top:6px;" class="btn btn-link"><span class="glyphicon glyphicon-pencil"></span></button>
+        </div>
+      </div>
+    </div>
+    <div style="padding:30px;" class="row">
+      <table style="width:600px;" class="table">
+        <thead>
+          <tr>
+            <th style="width:50px"> </th>
+            <th>条件</th>
+            <th>选项</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="glyphicon glyphicon-file"></span></td>
+            <td><a href="#"> 学生地区</a></td>
+            <td>
+              <ul style="list-style-type:none">
+                <li><span class="label label-info">四川凉山州 x</span></li>
+                <li><span class="label label-danger">贵州贵阳盘古县中心小学 x</span></li>
+              </ul>
+            </td>
+            <td>
+              <button type="button" class="btn btn-link btn-xs">添加</button>
+              <button type="button" class="btn btn-link btn-xs">清除</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>

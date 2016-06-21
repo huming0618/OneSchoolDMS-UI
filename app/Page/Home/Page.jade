@@ -1,0 +1,32 @@
+html
+	head
+		link(rel="stylesheet", type="text/css", href="/css/oneschool-bootstrap.css")
+		link(rel="stylesheet", type="text/css", href="/css/app.css")
+	body
+		//top navigation
+		header.navbar.navbar-inverse.navbar-fixed-top(role="banner")
+			div.container
+				div.navbar-header
+					a.navbar-brand(href="#") 一村小 管理系统
+				div.collapse.navbar-collapse
+					ul.nav.navbar-nav
+						li
+							a(href="#") 消息面板
+						li
+							a(href="#") 捐助
+						li
+							a(href="#") 学生
+						li
+							a(href="#") 捐助人
+						li
+							a(href="#") 学校
+						li
+							a(href="#") 系统管理
+					form.navbar-form.navbar-right(role="search")
+						div.form-group
+							input.form-control(type="text", placeholder="查询")
+							button.btn.btn-default(type="button") 查询
+		//main body
+		div.container(style="margin-top:40px;")
+		script(type="text/javascript", src="/bower_components/jquery/dist/jquery.min.js")
+		script(type="text/javascript", src="/bower_components/bootstrap/dist/js/bootstrap.js")
